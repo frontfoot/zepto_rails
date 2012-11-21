@@ -6,7 +6,7 @@ require "zepto/rails/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "zepto-rails"
-  s.version     = ZeptoRails::VERSION
+  s.version     = Zepto::Rails::VERSION
   s.authors     = ["Jason T. Carrell"]
   s.email       = ["jasoncarrell86@gmail.com"]
   s.homepage    = "https://github.com/packetman/zepto-js"
