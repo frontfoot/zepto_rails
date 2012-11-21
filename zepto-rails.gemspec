@@ -1,7 +1,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "zepto-rails/version"
+require "zepto/rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Zepto.js for the rails asset pipeline"
   s.description = "Provides a the zepto.js for the rails asset pipeline"
 
-  s.add_dependency "rails", ">= 3.2.0"
+  s.add_dependency "rails", ">= 3.1.0"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
