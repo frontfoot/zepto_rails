@@ -17,26 +17,26 @@ And run `bundle install`.
 Then add this lines to your `app/assets/javascripts/application.js`:
 
 ```
-// require zepto/default
+// require zepto
 ```
 
 If you only want to include some of the modules in zepto you can add them individually. The available modules are:
 
 ```
-//= require 'zepto/polyfill.js'
-//= require 'zepto'
-//= require 'zepto/event.js'
-//= require 'zepto/detect.js'
-//= require 'zepto/fx.js'
-//= require 'zepto/fx_methods.js'
-//= require 'zepto/ajax.js'
-//= require 'zepto/form.js'
-//= require 'zepto/assets.js'
-//= require 'zepto/data.js'
-//= require 'zepto/selector.js'
-//= require 'zepto/touch.js'
-//= require 'zepto/gesture.js'
-//= require 'zepto/stack.js'
+//= require zepto/polyfill
+//= require zepto/zepto
+//= require zepto/event
+//= require zepto/detect
+//= require zepto/fx
+//= require zepto/fx_methods
+//= require zepto/ajax
+//= require zepto/form
+//= require zepto/assets
+//= require zepto/data
+//= require zepto/selector
+//= require zepto/touch
+//= require zepto/gesture
+//= require zepto/stack
 ```
 
 Or if you want to include all of the modules add this line to your `app/assets/javascripts/application.js`:
