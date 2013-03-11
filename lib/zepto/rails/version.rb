@@ -1,5 +1,5 @@
 module Zepto
   module Rails
-    VERSION = "0.8.0"
+    VERSION = '1.0rc1'
   end
 end
