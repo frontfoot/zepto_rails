@@ -2,14 +2,14 @@
 
 Zepto for the Rails asset pipeline.
 
-This gem provides Zepto 1.0rc1.
+This gem provides Zepto 1.0.
 
 ## Installation
 
 Add zepto-rails to the Gemfile.
 
 ```
-gem 'zepto-rails', :github => 'frontfoot/zepto-rails', :branch => 'versions', :tag => 'v1.0rc1'
+gem 'zepto-rails', :github => 'frontfoot/zepto-rails', :tag => 'v1.0'
 ```
 
 And run `bundle install`.
